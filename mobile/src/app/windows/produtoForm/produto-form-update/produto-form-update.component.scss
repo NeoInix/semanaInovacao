@@ -1,0 +1,17 @@
+:host {
+  display: block;
+  background-color: var(--ion-color-tertiary); // Cor de fundo usando a variável tertiary
+}
+
+ion-card {
+  margin: 20px;
+  background-color: #ffffff; // Mantém o fundo dos cards branco, caso deseje
+}
+
+ion-item {
+  margin-bottom: 20px;
+}
+
+ion-button {
+  margin-top: 10px;
+}

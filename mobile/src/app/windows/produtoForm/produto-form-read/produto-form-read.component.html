@@ -1,0 +1,18 @@
+<ion-card>
+  <ion-card-content>
+    <ion-list>
+      <ion-item *ngFor="let produto of produto_list">
+        <ion-label>
+          <h2>{{ produto.nome }}</h2>
+          <p>Preço: {{ produto.preco | currency: 'BRL' }}</p>
+        </ion-label>
+        <ion-button fill="clear" slot="end" (click)="navigateToProdutoFormUpdate(produto.id!)" class="edit">
+          <ion-icon name="create-outline"></ion-icon>
+        </ion-button>
+        <ion-button fill="clear" slot="end" (click)="navigateToProdutoFormDelete(produto.id!)" class="delete">
+          <ion-icon name="trash-outline"></ion-icon>
+        </ion-button>
+      </ion-item>
+    </ion-list>
+  </ion-card-content>
+</ion-card>

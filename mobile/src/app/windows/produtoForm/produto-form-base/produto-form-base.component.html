@@ -1,0 +1,13 @@
+<app-header [titulo]="'Cadastro de Produtos'"></app-header>
+
+<ion-content>
+  <!-- Botão para adicionar -->
+  <div class="button-container">
+    <ion-button size="large" (click)="navigateToProdutoFormCreate()" color="success" shape="round" expand="fixed">
+      <ion-icon slot="icon-only" name="add"></ion-icon>
+    </ion-button>
+  </div>
+
+  <!-- Componente de listagem -->
+  <app-produto-form-read></app-produto-form-read>
+</ion-content>

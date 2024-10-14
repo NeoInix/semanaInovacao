@@ -1,0 +1,75 @@
+temp/
+mobile/node_modules
+backend/node_modules
+
+# Ionic --------------------------------------------------------------------------------
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+*~
+*.sw[mnpcod]
+.tmp
+*.tmp
+*.tmp.*
+UserInterfaceState.xcuserstate
+$RECYCLE.BIN/
+
+*.log
+log.txt
+
+
+mobile/.sourcemaps
+mobile/.versions
+mobile/coverage
+
+# Ionic
+mobile/.ionic
+mobile/www
+mobile/platforms
+mobile/plugins
+
+# Compiled output
+mobile/dist
+mobile/tmp
+mobile/out-tsc
+mobile/bazel-out
+
+# Node
+mobile/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+
+# Miscellaneous
+mobile/.angular
+mobile/.angular/cache
+.sass-cache/
+mobile/.nx
+mobile/.nx/cache
+mobile/connect.lock
+mobile/coverage
+mobile/libpeerconnection.log
+testem.log
+mobile/typings
+
+# System files
+.DS_Store
+Thumbs.db
