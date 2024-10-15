@@ -1,15 +1,4 @@
 {
     "produto": [
-        {
-            "id": 1,
-            "nome": "Camisa preta",
-            "preco": 5.89
-        },
-        {
-            "id": 2,
-            "nome": "Calça azul",
-            "preco": 20.32
-        }
-    ],
-    "suco": []
+    ]
 }
